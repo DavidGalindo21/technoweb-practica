@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .navbar {
   background-color: #0d6efd !important; 
@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-align: justify;
 }
 
@@ -163,7 +163,36 @@ body {
   color: white;
 }
 
-
+.servicios-section {
+    background: #f8f9fa;
+  }
+  .servicio-card {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .servicio-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    z-index: 1;
+  }
+  .servicio-card .card-body {
+    position: relative;
+    z-index: 2;
+  }
+  .servicio-card h5,
+  .servicio-card p {
+    margin-bottom: 0;
+  }
+  .servicio-1 { background: url('https://www.appandweb.es/wp-content/uploads/2022/04/post-etapasdesarrollo-Appandweb.jpg') center/cover; }
+  .servicio-2 { background: url('https://capgo.app/cross-platform-app-dev-2024.webp') center/cover; }
+  .servicio-3 { background: url('https://adpmx.com/storage/2024/07/cloud-seguridad-nube-aplicaciones.jpg') center/cover; }
+  .servicio-4 { background: url('https://starkcloud.com/wp-content/uploads/2025/01/Que-es-Ciberseguridad.webp') center/cover; }
+  .servicio-5 { background: url('https://onzamarketing.com/wp-content/uploads/2024/03/analisis-de-datos.webp') center/cover; }
+  .servicio-6 { background: url('https://kinesisco.com/wp-content/uploads/2024/07/consultoria-tecnologica-1.webp') center/cover; }
 
 
 
