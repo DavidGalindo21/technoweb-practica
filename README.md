@@ -30,9 +30,7 @@ Instrucciones paso a paso para que cualquiera pueda instalarlo y usarlo:
 git clone https://github.com/DavidGalindo21/technoweb-practica.git
 cd technoweb-practica
 Abrir directamente el archivo index.html
-![image](https://github.com/user-attachments/assets/79a3d9d0-f64d-416a-9a4e-982e2d631667)
 o
 Abrir el proyecto en VS Code y abrirlo con Live Server
-![image](https://github.com/user-attachments/assets/947cf2ed-c2ff-43f9-b90f-e5c9e09e9a7a)
 
 
