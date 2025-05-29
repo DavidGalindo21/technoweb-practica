@@ -45,7 +45,7 @@ body {
 }
 
 .background {
-  background-color: #e9e8f4; /* azul pastel suave de Bootstrap */
+  background-color: #e9e8f4; 
 }
 
 .banner-justify{
@@ -85,6 +85,83 @@ body {
   display: block;       
 }
 
+/* Clases del Formulario */
+.form-page {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fa;
+}
+
+.form-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  display: block;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-button,
+.form-link {
+  width: 100%;
+  display: block;
+}
+
+.form-input:focus, .form-textarea:focus {
+  border-color: #0d6efd;
+  outline: none;
+}
+
+.form-button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.form-button:hover {
+  background-color: #0849b3;
+}
+
+.form-link {
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+  font-weight: 600;
+  border: 2px solid #333;
+  border-radius: 6px;
+  color: #333;
+  text-decoration: none;
+}
+
+.form-link:hover {
+  background-color: #333;
+  color: white;
+}
 
 
 
