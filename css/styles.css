@@ -25,5 +25,23 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+  background-color: #007bff; 
+  color: white;
+  border-color: #007bff;
+  margin-bottom: 10px; 
+}
+
+.btn:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3;
+  color: white;
+}
+
+.container-fluid {
+  background-color: #d7d6fb; 
+  border-radius: 8px;
+}
+
 
 
