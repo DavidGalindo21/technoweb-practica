@@ -23,6 +23,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  text-align: justify;
 }
 
 .btn {
@@ -42,6 +43,18 @@ body {
   background-color: #d7d6fb; 
   border-radius: 8px;
 }
+
+.background {
+  background-color: #e9e8f4; /* azul pastel suave de Bootstrap */
+}
+
+.banner-justify{
+    text-align: justify;
+}
+
+
+
+
 
 
 
